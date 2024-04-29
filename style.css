@@ -64,7 +64,7 @@
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   .box {
     width: 600px; /* Adjust width for smaller devices */
     height: auto; /* Make height flexible */
