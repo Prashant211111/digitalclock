@@ -63,6 +63,31 @@
   margin-bottom: -10px;
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .box {
+    width: 600px; /* Adjust width for smaller devices */
+    height: auto; /* Make height flexible */
+    flex-direction: column; /* Stack children vertically */
+  }
+  .clock span {
+    font-size: 60px; /* Smaller font size for smaller devices */
+    width: 80px; /* Adjust width accordingly */
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    width: 90%; /* Use percentage for very small devices */
+    padding: 20px; /* Add some padding */
+  }
+  .clock span {
+    font-size: 40px; /* Even smaller font size for very small devices */
+    width: 60px; /* Adjust width accordingly */
+  }
+}
+/* Responsive adjustments end */
+
 /*------Anemated Border---------*/
 .box::before {
   content: "";
